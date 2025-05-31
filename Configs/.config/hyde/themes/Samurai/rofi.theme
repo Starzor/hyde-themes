@@ -1,11 +1,13 @@
 $HOME/.config/rofi/theme.rasi
 * {
-    main-bg:            #11111be6;
-    main-fg:            #cdd6f4ff;
-    main-br:            #cba6f7ff;
-    main-ex:            #f5e0dcff;
-    select-bg:          #b4befeff;
-    select-fg:          #11111bff;
-    separatorcolor:     transparent;
-    border-color:       transparent;
+    font: "Sawarabi Mincho, Noto Serif JP, serif 12";
+
+    main-bg:        #0e0e0ee6;     // ink black, semi-transparent
+    main-fg:        #e5e5e5ff;     // faded parchment white
+    main-br:        #8b0000ff;     // samurai red (border/active hint)
+    main-ex:        #f0e6d2ff;     // old paper tone
+    select-bg:      #8b0000cc;     // deep red w/ opacity
+    select-fg:      #ffffff;       // crisp white text
+    separatorcolor: transparent;
+    border-color:   transparent;
 }

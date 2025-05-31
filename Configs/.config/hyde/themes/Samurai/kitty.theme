@@ -1,80 +1,74 @@
 $HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
+## name:     Vagabond 🗡️
+## author:   Styled by ChatGPT for starzor
+## blurb:    Gritty, sumi-e inspired palette based on Takehiko Inoue’s Vagabond
 
-## name:     Catppuccin Mocha 🌿
-## author:   Pocco81 (https://github.com/Pocco81)
-## license:  MIT
-## upstream: https://github.com/catppuccin/kitty/blob/main/mocha.conf
-## blurb:    Soothing pastel theme for the high-spirited!
+# === Core Colors ===
+foreground              #e5e5e5     # Faded parchment
+background              #0e0e0e     # Sumi black
 
+selection_foreground    #0e0e0e
+selection_background    #f0e6d2     # Aged paper
 
+cursor                  #8b0000     # Blood red
+cursor_text_color       #ffffff
 
-# The basic colors
-foreground              #CDD6F4
-background              #1E1E2E
-selection_foreground    #1E1E2E
-selection_background    #F5E0DC
+url_color               #f0e6d2     # Subtle link hint
 
-# Cursor colors
-cursor                  #F5E0DC
-cursor_text_color       #1E1E2E
+# === Borders ===
+active_border_color     #8b0000
+inactive_border_color   #2e2e2e
+bell_border_color       #f0e6d2
 
-# URL underline color when hovering with mouse
-url_color               #B4BEFE
+# === Titlebar ===
+wayland_titlebar_color  system
+macos_titlebar_color    system
 
-# Kitty window border colors
-active_border_color     #CBA6F7
-inactive_border_color   #8E95B3
-bell_border_color       #EBA0AC
+# === Tabs ===
+active_tab_foreground   #ffffff
+active_tab_background   #8b0000
+inactive_tab_foreground #e5e5e5
+inactive_tab_background #1a1a1a
+tab_bar_background      #0e0e0e
 
-# OS Window titlebar colors
-wayland_titlebar_color system
-macos_titlebar_color system
+# === Marks ===
+mark1_foreground        #0e0e0e
+mark1_background        #8b0000
+mark2_foreground        #0e0e0e
+mark2_background        #c2b280
+mark3_foreground        #0e0e0e
+mark3_background        #666666
 
-# Tab bar colors
-active_tab_foreground   #11111B
-active_tab_background   #CBA6F7
-inactive_tab_foreground #CDD6F4
-inactive_tab_background #181825
-tab_bar_background      #11111B
+# === Terminal Colors ===
 
-# Colors for marks (marked text in the terminal)
-mark1_foreground #1E1E2E
-mark1_background #87B0F9
-mark2_foreground #1E1E2E
-mark2_background #CBA6F7
-mark3_foreground #1E1E2E
-mark3_background #74C7EC
+# Black (ink)
+color0  #0e0e0e
+color8  #2e2e2e
 
-# The 16 terminal colors
+# Red (brush blood)
+color1  #8b0000
+color9  #a80000
 
-# black
-color0 #43465A
-color8 #43465A
+# Green (bamboo ink)
+color2  #6e7f5f
+color10 #879a74
 
-# red
-color1 #F38BA8
-color9 #F38BA8
+# Yellow (aged parchment)
+color3  #f0e6d2
+color11 #fff2c2
 
-# green
-color2  #A6E3A1
-color10 #A6E3A1
+# Blue (sky wash)
+color4  #4a6fa5
+color12 #7fa7d6
 
-# yellow
-color3  #F9E2AF
-color11 #F9E2AF
+# Magenta (cherry ink)
+color5  #7f4a88
+color13 #9c6ba0
 
-# blue
-color4  #87B0F9
-color12 #87B0F9
+# Cyan (smoke gray)
+color6  #5e7c88
+color14 #7d9ba6
 
-# magenta
-color5  #F5C2E7
-color13 #F5C2E7
-
-# cyan
-color6  #94E2D5
-color14 #94E2D5
-
-# white
-color7  #CDD6F4
-color15 #A1A8C9
+# White (faded paper)
+color7  #e5e5e5
+color15 #ffffff

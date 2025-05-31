@@ -1,11 +1,21 @@
 $HOME/.config/waybar/theme.css|${scrDir}/wbarconfgen.sh
-@define-color bar-bg rgba(0, 0, 0, 0);
+@define-color bar-bg rgba(0, 0, 0, 0); /* transparent */
 
-@define-color main-bg #11111b;
-@define-color main-fg #cdd6f4;
+@define-color main-bg #0e0e0e;    /* sumi ink black */
+@define-color main-fg #e5e5e5;    /* parchment white */
 
-@define-color wb-act-bg #a6adc8;
-@define-color wb-act-fg #313244;
+@define-color wb-act-bg #8b0000;  /* samurai red */
+@define-color wb-act-fg #ffffff;  /* white */
 
-@define-color wb-hvr-bg #f5c2e7;
-@define-color wb-hvr-fg #313244;
+@define-color wb-hvr-bg #2e2e2e;  /* brushed gray */
+@define-color wb-hvr-fg #f0e6d2;  /* old paper tone */
+
+/* Set the font for all modules */
+* {
+    font-family: "Sawarabi Mincho", "Noto Serif JP", "serif";
+    font-size: 13px;
+    color: @main-fg;
+    background-color: @main-bg;
+}
+
+/* You can add more specific styles below if needed */
