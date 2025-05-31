@@ -1,19 +1,18 @@
-$HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
-## name:     Vagabond 🗡️
+$HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty## name:     Vagabond 🗡️
 ## author:   Styled by ChatGPT for starzor
 ## blurb:    Gritty, sumi-e inspired palette based on Takehiko Inoue’s Vagabond
 
 # === Core Colors ===
-foreground              #e5e5e5     # Faded parchment
-background              #0e0e0e     # Sumi black
+foreground              #e5e5e5
+background              #0e0e0e
 
 selection_foreground    #0e0e0e
-selection_background    #f0e6d2     # Aged paper
+selection_background    #f0e6d2
 
-cursor                  #8b0000     # Blood red
+cursor                  #8b0000
 cursor_text_color       #ffffff
 
-url_color               #f0e6d2     # Subtle link hint
+url_color               #f0e6d2
 
 # === Borders ===
 active_border_color     #8b0000
@@ -41,34 +40,34 @@ mark3_background        #666666
 
 # === Terminal Colors ===
 
-# Black (ink)
+# black
 color0  #0e0e0e
 color8  #2e2e2e
 
-# Red (brush blood)
+# red
 color1  #8b0000
 color9  #a80000
 
-# Green (bamboo ink)
+# green
 color2  #6e7f5f
 color10 #879a74
 
-# Yellow (aged parchment)
+# yellow
 color3  #f0e6d2
 color11 #fff2c2
 
-# Blue (sky wash)
+# blue
 color4  #4a6fa5
 color12 #7fa7d6
 
-# Magenta (cherry ink)
+# magenta
 color5  #7f4a88
 color13 #9c6ba0
 
-# Cyan (smoke gray)
+# cyan
 color6  #5e7c88
 color14 #7d9ba6
 
-# White (faded paper)
+# white
 color7  #e5e5e5
 color15 #ffffff

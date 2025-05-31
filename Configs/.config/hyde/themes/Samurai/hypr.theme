@@ -1,7 +1,7 @@
 # 🥷 Vagabond Theme – Inspired by Takehiko Inoue's masterpiece
 
-$GTK_THEME = Adwaita-dark
-$ICON_THEME = Tela-circle-dark
+$GTK_THEME = Graphite-Mono
+$ICON_THEME = Tela-circle-grey
 $COLOR_SCHEME = prefer-dark
 
 exec = gsettings set org.gnome.desktop.interface icon-theme $ICON_THEME
