@@ -1,41 +1,42 @@
 $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
-#  // P̳r̳a̳s̳a̳n̳t̳h̳ R̳a̳n̳g̳a̳n̳
 
-$GTK_THEME=Catppuccin-Mocha
-$ICON_THEME = Tela-circle-dracula
+$GTK_THEME = Rose-Pine
+$ICON_THEME = Tela-circle-pink
 $COLOR_SCHEME = prefer-dark
-
-# Optional: The varibles above will be set automatically when the theme is loaded
-# This exec commands will soon be deprecated
 
 exec = gsettings set org.gnome.desktop.interface icon-theme $ICON_THEME
 exec = gsettings set org.gnome.desktop.interface gtk-theme $GTK_THEME
 exec = gsettings set org.gnome.desktop.interface color-scheme $COLOR_SCHEME
 
 general {
-    gaps_in = 3
-    gaps_out = 8
+    gaps_in = 5
+    gaps_out = 12
     border_size = 2
-    col.active_border = rgba(ca9ee6ff) rgba(f2d5cfff) 45deg
-    col.inactive_border = rgba(b4befecc) rgba(6c7086cc) 45deg
+
+    # Active border with colorful gradient using your palette
+    col.active_border = rgba(ff85b3ff) rgba(c14a7dff) 45degT
+    # Inactive border slightly muted but still colorful
+    col.inactive_border = rgba(2e2e3acc) rgba(472d3ccc) 45deg
+
     layout = dwindle
     resize_on_border = true
 }
 
 group {
-    col.border_active = rgba(ca9ee6ff) rgba(f2d5cfff) 45deg
-    col.border_inactive = rgba(b4befecc) rgba(6c7086cc) 45deg
-    col.border_locked_active = rgba(ca9ee6ff) rgba(f2d5cfff) 45deg
-    col.border_locked_inactive = rgba(b4befecc) rgba(6c7086cc) 45deg
+    col.border_active = rgba(ff85b3ff) rgba(c14a7dff) 45deg
+    col.border_inactive = rgba(2e2e3acc) rgba(472d3ccc) 45deg
+    col.border_locked_active = rgba(ff85b3ff) rgba(c14a7dff) 45deg
+    col.border_locked_inactive = rgba(2e2e3acc) rgba(472d3ccc) 45deg
 }
 
 decoration {
-    rounding = 10
+    rounding = 6
     shadow:enabled = false
+    dim_around = [0.0]
 
     blur {
-        enabled = yes
-        size = 6
+        enabled = no
+        size = 8
         passes = 3
         new_optimizations = on
         ignore_opacity = on
@@ -43,4 +44,6 @@ decoration {
     }
 }
 
+# Apply blur specifically for waybar
 layerrule = blur,waybar
+

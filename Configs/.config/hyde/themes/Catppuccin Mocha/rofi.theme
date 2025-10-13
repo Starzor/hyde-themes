@@ -1,11 +1,11 @@
 $HOME/.config/rofi/theme.rasi
 * {
-    main-bg:            #11111be6;
-    main-fg:            #cdd6f4ff;
-    main-br:            #cba6f7ff;
-    main-ex:            #f5e0dcff;
-    select-bg:          #b4befeff;
-    select-fg:          #11111bff;
-    separatorcolor:     transparent;
-    border-color:       transparent;
+    main-bg:        #1a1a1fe6;   /* Deep night/charcoal background */
+    main-fg:        #fceaffff;   /* Soft lilac-pink text */
+    main-br:        #ff85b3ff;   /* Bright sakura pink border/highlight */
+    main-ex:        #c14a7dff;   /* Dusky rose accent elements */
+    select-bg:      #472d3cff;   /* Muted wine tone for selection background */
+    select-fg:      #fceaffff;   /* Selection text (soft lilac-pink) */
+    separatorcolor: transparent;
+    border-color:   #2e2e3aff;   /* Dark violet-gray subtle UI border */
 }
