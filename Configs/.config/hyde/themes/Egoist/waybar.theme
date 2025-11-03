@@ -13,3 +13,6 @@ $HOME/.config/waybar/theme.css|${scrDir}/wbarconfgen.sh
 @define-color accent #ff85b3;                /* Bright sakura pink accent */
 @define-color border #2e2e3a;                /* Dark violet-gray for border */
 
+* {
+  min-height: 18px;
+}
